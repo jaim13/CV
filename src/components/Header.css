@@ -1,0 +1,10 @@
+
+.nav-link {
+    color: white; /* Cambia el color del texto a blanco */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; /* Opcional: aumenta el grosor del texto */
+}
+
+.nav-link:hover {
+    color: #f8f9fa; /* Cambia el color del texto cuando el mouse está sobre el enlace */
+}

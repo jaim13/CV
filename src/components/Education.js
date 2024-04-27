@@ -1,22 +1,35 @@
-//Education.js
-import react from "react";
-function Education(){
+// Education.js
+import React from "react";
+import "./Education.css";
+
+function Education() {
     return (
-        <div>
+        <div className="education-container">
             <h1>Education</h1>
-            <p>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                CUC
-            </button>
-            </p>
-            <div style={{ minHeight: '120px' }}>
-            <div class="collapse collapse-horizontal" id="collapseWidthExample">
-            <div className="card card-body" style={{ width: '300px' }}>
-                Currently Studying an Information Technology degree at CUC, almost done.
+            <div className="education-cards">
+                <div className="card">
+                    <button className="btn btn-primary hvr-float-shadow" type="button" data-bs-toggle="collapse" data-bs-target="#cucCollapse" aria-expanded="false" aria-controls="cucCollapse">
+                        CUC
+                    </button>
+                    <div className="collapse" id="cucCollapse">
+                        <div className="card card-body">
+                            Currently Studying an Information Technology degree at CUC, almost done.
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div className="card">
+                    <button className="btn btn-primary hvr-float-shadow" type="button" data-bs-toggle="collapse" data-bs-target="#mepCollapse" aria-expanded="false" aria-controls="mepCollapse">
+                        MEP
+                    </button>
+                    <div className="collapse" id="mepCollapse">
+                        <div className="card card-body">
+                            Highschool diploma done at Liceo San Nicolas de Tolentino.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
 }
+
 export default Education;
