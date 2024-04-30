@@ -4,7 +4,7 @@ import "./Languages.css";
 
 function Languages(){
     return(
-        <div className="languages-container">
+        <div id="languages" className="languages-container">
             <h1>Languages</h1>
             <div className="card">
                 <div className="card-header">

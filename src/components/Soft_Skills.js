@@ -3,7 +3,7 @@ import "./Soft_Skills.css";
 
 function Soft_Skills() {
   return (
-<div className="accordion-container" style={{ fontFamily: 'Roboto, sans-serif' }}>
+<div id="soft_skills" className="accordion-container" style={{ fontFamily: 'Roboto, sans-serif' }}>
       <h1>Soft Skills</h1>
       <div className="accordion" id="accordionSoftSkills">
         <div className="accordion-item">

@@ -6,6 +6,8 @@ import Languages from './components/Languages';
 import Education from './components/Education';
 import Soft_Skills from './components/Soft_Skills'; 
 import TechSkills from './components/TechSkills'; 
+import Footer from './components/footer';
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,8 @@ function App() {
       <Soft_Skills />
       {/* Tech Skills */}
       <TechSkills />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

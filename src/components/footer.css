@@ -1,0 +1,33 @@
+/* footer.css */
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  #footer h3 {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  #footer p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  #footer ul li {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .social-icon:hover {
+    color: #007bff; 
+  }
+  
