@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Carousel from './components/Carousel';
@@ -8,7 +8,12 @@ import Soft_Skills from './components/Soft_Skills';
 import TechSkills from './components/TechSkills'; 
 import Footer from './components/footer';
 
+
 function App() {
+  useEffect(() => {
+    // Cambia el título de la pestaña del navegador
+    document.title = "Jaim Martínez-CV";
+  }, []);
   return (
     <div className="App">
       {/* Renderiza el componente Header */}
