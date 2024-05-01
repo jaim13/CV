@@ -8,8 +8,10 @@ function Header() {
       <img className="bg-image" src="https://images.unsplash.com/photo-1542393545-10f5cde2c810?q=100&w=1665&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bg image" />
       <header className="header">
         <nav className="navbar navbar-expand-lg navbar-dark bg-transparent"> {/* Agrega la clase bg-transparent para hacer la barra de navegación transparente */}
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">My resume</a>
+          <div className="container">
+          <a className="navbar-brand" href="#">
+          <img src="/imgs/cv.png" alt="Bootstrap" width="30" height="24" />
+        </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
