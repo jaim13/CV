@@ -12,7 +12,7 @@ function Languages(){
                 </div>
                 <div className="card-body">
                     <blockquote className="blockquote mb-0">
-                    <p>I'm a native speaker</p>
+                    <p>Native speaker</p>
                     </blockquote>
                 </div>
             </div>

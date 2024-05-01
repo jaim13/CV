@@ -54,13 +54,13 @@ function Header() {
                     <h5 className="card-title">Jaim Martínez</h5>
                     <h6 className="card-subtitle mb-2 text-muted">Web Developer</h6>
                     <p className="card-text">
-                        I am pleased to present my latest personal project, a gym simulator platform designed with passion and cutting-edge technology. This project fuses a variety of technologies, including JavaScript (Node.js), SQL, HTML, CSS, TypeScript, Python, and AJAX, among others, to create an interactive and dynamic experience.
+                        I'm pleased to present my latest personal project, a gym simulator platform designed with passion and cutting-edge technology. This project fuses a variety of technologies, including JavaScript (Node.js), SQL, HTML, CSS, TypeScript, Python, and AJAX, among others, to create an interactive and dynamic experience.
                     </p>
                     <p className="card-text">
-                        I also implemented several APIs made by me to showcase my abilities in the backend environment. I have implemented the Model-View-Controller (MVC) architecture, which guarantees clean and modular code, as well as an intuitive user experience.
+                        I also implemented several APIs made by me to showcase my abilities in the backend environment. I've implemented the Model-View-Controller (MVC) architecture, which guarantees clean and modular code, as well as an intuitive user experience.
                     </p>
                     <p className="card-text">
-                        Additionally, to improve functionality and user convenience, I have incorporated the ability to send emails and make payments through PayPal in a test environment. This project reflects my dedication to software development and my commitment to creating innovative and practical solutions.
+                        Additionally, to improve functionality and user convenience, I've incorporated the ability to send emails and make payments through PayPal in a test environment. This project reflects my dedication to software development and my commitment to creating innovative and practical solutions.
                     </p>
                     <p className="card-text">
                         There are a few things you should know. First of all, I want to apologize if the website is a bit slow (it's because the render server is free and also the Azure Server). After registration, there will be a payment process. You can use the test card number 123456789, and the expiration date is 2050-04-24. If you choose the Account method, you can use the number 123456789. Sometimes there may be a timing issue, so if the website keeps loading and there's a mistake, it could be due to the response time. In that case, please try again.
