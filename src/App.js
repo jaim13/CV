@@ -8,8 +8,6 @@ import Soft_Skills from './components/Soft_Skills';
 import TechSkills from './components/TechSkills'; 
 import Projects from './components/Projects.js';
 import Footer from './components/footer';
-import Me from './components/Me.js';
-
 function App() {
   useEffect(() => {
     // Cambia el título de la pestaña del navegador
@@ -20,6 +18,7 @@ function App() {
       {/* Renderiza el componente Header */}
       <Header />
       <div>
+      {/* Renderiza el componente Projects */}
       <Projects />
       </div>
       {/* Carrousel */}
