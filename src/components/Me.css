@@ -1,0 +1,14 @@
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  .card-body{
+    border:none;
+    margin-top: 50px;
+  }
+  .header-container {
+    position: relative;
+  }
+  
+.Me_card-body{
+    margin-top: 500px;
+}
