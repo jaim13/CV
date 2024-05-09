@@ -1,43 +1,41 @@
-/* ProjectCard.css */
-.project-card {
+/* ProjectCard.module.css */
+.container{
   display: flex;
-  margin-bottom: 20px;
-  border-radius: 60px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  align-items: center;
+  justify-content: center;
+}
+.projectCard {
+ /* width: 1000px;
+  height: 1000px;*/
+  display: flex;
   overflow: hidden;
+  min-height: 400px; /* Establece una altura mínima para la tarjeta */
 }
 
-.project-card .content {
-  flex: 1;
+.projectCard .content {
   padding: 20px;
+  flex-grow: 1; /* Permite que el contenido ocupe todo el espacio disponible */
 }
 
-.project-card h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.project-card .description {
-  margin-bottom: 15px;
-}
-
-.project-card .image {
-  width: 100%;
-  height: auto;
-  flex-shrink: 0;
-  display: flex; 
-  justify-content: center; 
+.projectCard .image {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.project-card img {
-  width: 100%;
-  height: auto;
-  object-fit: cover; 
+.projectCard .image .img {
+  max-width: 100%; 
+  max-height: 100%;
+  object-fit: contain;
 }
-
-
-.button-85 {
+@media (max-width: 768px) {
+  .projectCard .image .img {
+    max-width: 100%; 
+    max-height: 100%;
+    object-fit: contain;
+  }
+}
+.button {
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -52,7 +50,7 @@
   touch-action: manipulation;
 }
 
-.button-85:before {
+.button85:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -92,7 +90,7 @@
   }
 }
 
-.button-85:after {
+.button85:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -104,7 +102,6 @@
   border-radius: 10px;
 }
 
-.card-link:hover {
+.cardLink:hover {
   text-decoration: underline;
 }
-
