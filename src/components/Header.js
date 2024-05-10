@@ -58,17 +58,6 @@ function Header() {
           </div>
         </nav>
       </header>
-      <div className="header-content d-flex justify-content-center align-items-center mt-6">
-        <div className="card col-12 col-md-6">
-          <div className="header card-body">
-            <h2 className="card-title">Web Developer</h2>
-            <h2 className="card-subtitle mb-2 text-muted">Jaim Martínez</h2>
-            <p className="card-text">
-              Welcome to my portfolio! As a passionate web developer. I`ve been building interactive websites to crafting robust web applications, I strive to create engaging digital experiences. Explore my portfolio to see some of my latest project and get in touch if you're interested in collaborating.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }

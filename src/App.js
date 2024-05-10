@@ -9,6 +9,7 @@ import TechSkills from './components/TechSkills';
 import Projects from './components/Projects.js';
 import Footer from './components/footer';
 import InfiniteCarousel from './components/InfiniteCarousel.js'
+import Me from './components/Me.js'
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,9 @@ function App() {
       {/* Renderiza el componente Header */}
       <Header />
       <div>
+        <div>
+          <Me />
+        </div>
       {/* Renderiza el componente Projects */}
       <Projects />
       </div>
