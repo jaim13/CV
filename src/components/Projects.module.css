@@ -1,19 +1,27 @@
+.customControl {
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* Asegura que los botones estén encima del carrusel */
+}
 
-  .customControl {
-    background-color: black;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-    position: absolute; /* Agregamos posición absoluta para controlar la ubicación */
-    top: 50%; /* Lo colocamos en el centro verticalmente */
-  }
-  
-  .customControl:hover {
-    background-color: #333;
-  }
-  
-  .customControl:focus {
-    outline: none;
-  }
+.customControl.prev {
+  left: 10px; 
+}
+
+.customControl.next {
+  right: 10px; 
+}
+.customControl:hover {
+  background-color: #333;
+}
+
+.customControl:focus {
+  outline: none;
+}
