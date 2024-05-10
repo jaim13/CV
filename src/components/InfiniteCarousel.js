@@ -1,42 +1,27 @@
-//InfiniteCarousel.js
-import "./InfiniteCarousel.css";
+// InfiniteCarousel.js
+import React from "react";
+import styles from "./InfiniteCarousel.module.css";
 
-export default function InfiniteCarousel(){
-    return(
-        <section class="slide-option">
-	<div class="container">
-		<h3 class="no-marg">closed infinite loop</h3>
-	</div>
-	<div id="infinite" class="highway-slider">
-		<div class="container highway-barrier">
-			<ul class="highway-lane">
-				<li class="highway-car"><span class="fab fa-angular"></span></li>
-				<li class="highway-car"><span class="fab fa-js"></span></li>
-				<li class="highway-car"><span class="fab fa-node"></span></li>
-				<li class="highway-car"><span class="fab fa-html5"></span></li>
-				<li class="highway-car"><span class="fab fa-less"></span></li>
-				<li class="highway-car"><span class="fab fa-gulp"></span></li>
-				<li class="highway-car"><span class="fab fa-stack-overflow"></span></li>
-				<li class="highway-car"><span class="fab fa-codepen"></span></li>
-				<li class="highway-car"><span class="fab fa-aws"></span></li>
-				<li class="highway-car"><span class="fab fa-gitlab"></span></li>
-				<li class="highway-car"><span class="fab fa-chrome"></span></li>
-				<li class="highway-car"><span class="fab fa-google"></span></li>
-				<li class="highway-car"><span class="fab fa-angular"></span></li>
-				<li class="highway-car"><span class="fab fa-js"></span></li>
-				<li class="highway-car"><span class="fab fa-node"></span></li>
-				<li class="highway-car"><span class="fab fa-html5"></span></li>
-				<li class="highway-car"><span class="fab fa-less"></span></li>
-				<li class="highway-car"><span class="fab fa-gulp"></span></li>
-				<li class="highway-car"><span class="fab fa-stack-overflow"></span></li>
-				<li class="highway-car"><span class="fab fa-codepen"></span></li>
-				<li class="highway-car"><span class="fab fa-aws"></span></li>
-				<li class="highway-car"><span class="fab fa-gitlab"></span></li>
-				<li class="highway-car"><span class="fab fa-chrome"></span></li>
-				<li class="highway-car"><span class="fab fa-google"></span></li>
-			</ul>
-		</div>
-	</div>
-</section>
-    );
+export default function InfiniteCarousel() {
+  return (
+    <div className={styles.infiniteCarousel}>
+      <div className={`Logos ${styles.Logos}`}>
+        <div className={`logos-slide ${styles["logos-slide"]}`}>
+          <img src="/imgs/pythonlog.png" />
+          <img src="/imgs/reactlog.png" />
+          <img src="/imgs/sqllog.png" />
+          <img src="/imgs/nodelog.png" />
+          <img src="/imgs/ubuntulog.png" />
+          <img src="/imgs/jslogo.png" />
+          {/* Duplicamos el contenido */}
+          <img src="/imgs/pythonlog.png" />
+          <img src="/imgs/reactlog.png" />
+          <img src="/imgs/sqllog.png" />
+          <img src="/imgs/nodelog.png" />
+          <img src="/imgs/ubuntulog.png" />
+          <img src="/imgs/jslogo.png" />
+        </div>
+      </div>
+    </div>
+  );
 }

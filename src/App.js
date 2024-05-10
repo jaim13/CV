@@ -8,6 +8,8 @@ import Soft_Skills from './components/Soft_Skills';
 import TechSkills from './components/TechSkills'; 
 import Projects from './components/Projects.js';
 import Footer from './components/footer';
+import InfiniteCarousel from './components/InfiniteCarousel.js'
+
 function App() {
   useEffect(() => {
     // Cambia el título de la pestaña del navegador
@@ -31,6 +33,8 @@ function App() {
       <Soft_Skills />
       {/* Tech Skills */}
       <TechSkills />
+      {/* Infinite carousel */}
+      <InfiniteCarousel />
       {/* Footer */}
       <Footer />
     </div>
