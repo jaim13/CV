@@ -1,11 +1,14 @@
 import React from "react";
-import "./Header.css";
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <div className="header-container">
-      <header className="header">
-        <nav className="navbar navbar-expand-lg transparent-navbar">
+    <div className={`${styles["header-container"]} Header`}>
+      <header className={`${styles["header"]} header`}>
+        <nav
+          className={`navbar fixed-top navbar-expand-lg ${styles["navbar-blur"]}`}
+          style={{ backgroundAttachment: "fixed" }}
+        >
           <div className="container">
             <a className="navbar-brand" href="#">
               <img src="/imgs/cv.png" alt="CV Logo" width="30" height="24" />
@@ -21,35 +24,42 @@ function Header() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
+            <div
+              className="collapse navbar-collapse w-100"
+              id="navbarSupportedContent"
+              style={{ fontFamily: "Roboto, sans-serif" }}
+            >
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                  <a className="nav-link text-dark" href="#languages">
+                  <a
+                    className={`nav-link text-dark ${styles["nav-link"]}`}
+                    href="#languages"
+                  >
                     Languages
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-dark" href="#education">
+                  <a className={`nav-link text-dark ${styles["nav-link"]}`} href="#education">
                     Education
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-dark" href="#projects">
+                  <a className={`nav-link text-dark ${styles["nav-link"]}`} href="#projects">
                     Projects
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-dark" href="#soft_skills">
+                  <a className={`nav-link text-dark ${styles["nav-link"]}`} href="#soft_skills">
                     Soft Skills
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-dark" href="#Tech_Skills">
+                  <a className={`nav-link text-dark ${styles["nav-link"]}`} href="#Tech_Skills">
                     Tech Skills
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-dark" href="#footer">
+                  <a className={`nav-link text-dark ${styles["nav-link"]}`} href="#footer">
                     Contact
                   </a>
                 </li>
