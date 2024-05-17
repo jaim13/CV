@@ -53,6 +53,7 @@ export default function Projects() {
                   </p>
                 </div>
               }
+              code="https://github.com/jaim13/GymResponsiveMVC"
               link="https://costaricafitness.onrender.com"
               imageUrl="https://images.unsplash.com/photo-1590487988256-9ed24133863e?q=10&w=856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
@@ -83,6 +84,7 @@ export default function Projects() {
                   </p>
                 </div>
               }
+              code="https://github.com/jaim13/FirstProjectNode"
               link="https://usernode.onrender.com"
               imageUrl="https://images.unsplash.com/photo-1658204238967-3a81a063d162?q=100&w=1724&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />

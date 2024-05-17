@@ -1,5 +1,7 @@
 import styles from "./Me.module.css"; // Importa los estilos CSS
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Importa FontAwesomeIcon
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import {faFile} from '@fortawesome/free-solid-svg-icons';
 export default function Me() {
   return (
     <div className="header-content d-flex justify-content-center align-items-center mt-6">
@@ -12,6 +14,12 @@ export default function Me() {
           <p className="card-text" style={{ color: 'white' }}>
             Welcome to my portfolio! As a passionate web developer. I`ve been building interactive websites to crafting robust web applications, I strive to create engaging digital experiences. Explore my portfolio to see some of my latest project and get in touch if you're interested in collaborating.
           </p>
+          <a href="https://github.com/jaim13" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="social-icon" />
+          </a>
+          <a href="/JaimMResume.pdf" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFile} className="social-icon" />
+          </a>
         </div>
       </div>
     </div>

@@ -17,6 +17,12 @@
   flex-grow: 1; /* Permite que el contenido ocupe todo el espacio disponible */
 }
 
+.social-icon {
+  font-size: 24px; /* Ajusta el tamaño del icono según tu preferencia */
+  margin-left: 10px; /* Espacio entre el botón y el icono */
+  color: #333; /* Color del icono */
+}
+
 .projectCard .image {
   display: flex;
   justify-content: center;
